@@ -1,0 +1,23 @@
+# GPU-enabled PyTorch
+torch==2.3.0+cu121
+torchvision==0.18.0+cu121
+torchaudio==2.3.0+cu121
+--extra-index-url https://download.pytorch.org/whl/cu121
+
+# FastAPI dependencies
+fastapi
+uvicorn
+
+# ML / preprocessing
+numpy
+pillow
+albumentations
+scikit-learn
+tqdm
+
+# ONNX
+onnx
+onnxruntime-gpu
+
+# File upload support
+python-multipart
